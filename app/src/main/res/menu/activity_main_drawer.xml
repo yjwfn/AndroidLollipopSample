@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:enabled="false"
+        android:title="Transitions"/>
+
+    <group
+        android:id="@+id/transitions"
+        android:checkableBehavior="none"
+        >
+        <item
+            android:id="@+id/scene"
+            android:title="Scene"/>
+        <item
+            android:id="@+id/activity_transition"
+            android:title="Activity Transition"/>
+
+        <item
+            android:id="@+id/shared_element"
+            android:title="Shared Element"/>
+    </group>
+
+</menu>
