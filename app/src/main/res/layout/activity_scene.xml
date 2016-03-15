@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <fragment
-        android:name="com.lw.sample.transitions.fragments.SceneFragment"
+        android:name="com.lw.sample.animations.transitions.fragments.SceneFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:tag="SceneFragment"

@@ -3,12 +3,17 @@
 
     <item
         android:enabled="false"
-        android:title="Transitions"/>
+        android:title="Animations"/>
 
     <group
-        android:id="@+id/transitions"
+        android:id="@+id/animations"
         android:checkableBehavior="none"
         >
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback"
+            />
+
         <item
             android:id="@+id/scene"
             android:title="Scene"/>
@@ -16,9 +21,11 @@
             android:id="@+id/activity_transition"
             android:title="Activity Transition"/>
 
+
         <item
             android:id="@+id/shared_element"
             android:title="Shared Element"/>
+
     </group>
 
 </menu>

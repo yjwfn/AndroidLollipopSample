@@ -18,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".transitions.SceneActivity"/>
+        <activity android:name=".animations.transitions.SceneActivity"/>
+        <activity android:name=".animations.feedback.RippleDrawableActivity"/>
+
     </application>
 
 </manifest>

@@ -3,11 +3,8 @@ package com.lw.sample;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.view.MenuItemCompat;
-import android.util.Log;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -15,7 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
+import com.lw.sample.animations.feedback.RippleDrawableActivity;
 import com.lw.sample.utils.UIHelper;
 
 public class MainActivity extends AppCompatActivity
@@ -85,7 +84,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if(item.getGroupId() == R.id.transitions){
+        if(item.getGroupId() == R.id.animations){
             handleTransition(item.getItemId());
 
         }
@@ -103,7 +102,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.scene:
                 UIHelper.startSceneActivity(this);
                 break;
-
+            case R.id.feedback:
+                UIHelper.startActivity(this, RippleDrawableActivity.class);
+                break;
 
         }
 

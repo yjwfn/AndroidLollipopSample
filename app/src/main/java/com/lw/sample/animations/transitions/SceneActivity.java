@@ -1,4 +1,4 @@
-package com.lw.sample.transitions;
+package com.lw.sample.animations.transitions;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

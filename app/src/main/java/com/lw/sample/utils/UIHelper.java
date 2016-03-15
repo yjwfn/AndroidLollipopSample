@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import com.lw.sample.transitions.SceneActivity;
+import com.lw.sample.animations.transitions.SceneActivity;
 
 /**
  * Created by yjwfn on 16-3-14.
@@ -16,6 +16,9 @@ public class UIHelper {
     public static void startSceneActivity(Context context){
         startActivity(context, SceneActivity.class);
     }
+
+
+
 
     public static void startActivity(Context context, Class<? extends Activity> clz){
         ComponentName componentName = new ComponentName(context, clz);

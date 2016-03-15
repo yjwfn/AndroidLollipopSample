@@ -1,4 +1,4 @@
-package com.lw.sample.transitions.fragments;
+package com.lw.sample.animations.transitions.fragments;
 
 import android.annotation.TargetApi;
 import android.os.Build;
