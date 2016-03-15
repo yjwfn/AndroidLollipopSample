@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".animations.transitions.SceneActivity"/>
         <activity android:name=".animations.feedback.RippleDrawableActivity"/>
+        <activity android:name=".animations.reveal.RevealActivity"/>
 
     </application>
 

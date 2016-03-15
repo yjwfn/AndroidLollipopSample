@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.lw.sample.animations.feedback.RippleDrawableActivity;
+import com.lw.sample.animations.reveal.RevealActivity;
 import com.lw.sample.utils.UIHelper;
 
 public class MainActivity extends AppCompatActivity
@@ -104,6 +105,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.feedback:
                 UIHelper.startActivity(this, RippleDrawableActivity.class);
+                break;
+            case R.id.reveal:
+                UIHelper.startActivity(this, RevealActivity.class);
                 break;
 
         }

@@ -15,6 +15,11 @@
             />
 
         <item
+            android:id="@+id/reveal"
+            android:title="Reveal"
+            />
+
+        <item
             android:id="@+id/scene"
             android:title="Scene"/>
         <item

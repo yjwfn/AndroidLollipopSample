@@ -4,3 +4,4 @@
 ##Animations
 *   Scene
 *   RippleDrawable
+*   Reveal Effect
